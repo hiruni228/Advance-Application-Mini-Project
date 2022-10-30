@@ -1,0 +1,7 @@
+coded addition function.
+ var Operator = ws.getRange('C2').getValue();
+   logger.log(Operator);
+  if (operator=='Addition'){
+    result=number1+number2;
+    logger.log(result);
+  }
