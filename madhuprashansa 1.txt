@@ -1,0 +1,4 @@
+coded multiplication function.
+  else if (Operator=='Multiplication'){
+    result=number1*number2;
+  }
