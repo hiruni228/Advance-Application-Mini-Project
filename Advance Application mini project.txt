@@ -1,3 +1,11 @@
 Mini Project
 create new file as Calculator using google excel.
 create file as Calculator using google apps script.
+coded main function
+      function Calculating() {
+      var ws = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Calculator');
+      var Number1 = ws.getRange('A2').getValue();
+      logger.log(number1);
+
+     var Number2 = ws.getRange('B2').getValue();
+     logger.log(number2);
