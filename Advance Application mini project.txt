@@ -9,3 +9,8 @@ coded main function
 
      var Number2 = ws.getRange('B2').getValue();
      logger.log(number2);
+
+coded subtraction function.
+      else if (Operator=='Subtraction'){
+      result=number1-number2;
+      }
