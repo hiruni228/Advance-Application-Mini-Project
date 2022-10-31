@@ -3,3 +3,4 @@ else if(Operator=='division'){
 }
 ws.getRange('D2').setValue(result);
 }
+ 
