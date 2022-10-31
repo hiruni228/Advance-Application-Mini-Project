@@ -1,0 +1,5 @@
+else if(Operator=='division'){
+	result=number1/number2;
+}
+ws.getRange('D2').setValue(result);
+}
